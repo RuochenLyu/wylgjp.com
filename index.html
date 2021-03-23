@@ -1,3138 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>个人主页</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
     />
-    <title>中文独立播客</title>
-    <link rel="stylesheet" href="./files/font_1144028_wagkprqwss.css" />
-    <link rel="stylesheet" href="./files/home.94c389b6.css" />
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/tooplate-style.css" />
   </head>
+
   <body>
-    <div class="head">
-      <div class="inner">
-        <h1>中文独立播客</h1>
-        <h2>发现与推荐高质量的中文独立播客</h2>
-        <nav>
-          <a href="https://github.com/typlog/china-indie-podcasts"
-            >如何提交播客</a
-          >
-        </nav>
+    <!-- page header -->
+    <div class="container" id="home">
+      <div class="col-12 text-center">
+        <div class="tm-page-header">
+          <i class="fas fa-4x fa-chart-bar mr-4"></i>
+          <h1 id="title" class="d-inline-block text-uppercase">个人主页</h1>
+        </div>
       </div>
     </div>
-    <div class="podcasts">
-      <div class="inner">
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://adhk.me/" target="_blank">
-            <img src="./files/8436224877_627334.jpg" alt="山顶洞人 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://adhk.me/" target="_blank">山顶洞人</a></h3>
-            <p>在最有趣的大脑钻洞</p>
-            <div class="item_meta"><span>杨静</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://adhk.me/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/hk/podcast/%E5%B1%B1%E9%A1%B6%E6%B4%9E%E4%BA%BA/id1473773233"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;apn=com.google.android.music&amp;link=https://play.google.com/music/m/Iajmjoh22hcjxyak7z7ewaayb3u?t%3D%25E5%25B1%25B1%25E9%25A1%25B6%25E6%25B4%259E%25E4%25BA%25BA%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/6rIazS0V62LlEj8W1Scny5"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked">
-          <a class="item_logo" href="https://anobody.im/" target="_blank">
-            <img src="./files/8401205678_463793.png" alt="小人物 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://anobody.im/" target="_blank">小人物</a></h3>
-            <p>
-              一档探索内心、接纳自我、努力变优秀的播客，讲述来自各行各业小人物的工作、思考与生活，不限于欧洲生活、高效工作、海外求职、读书电影、美食旅行。
-            </p>
-            <div class="item_meta"><span>阿乐</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://anobody.im/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/%E5%B0%8F%E4%BA%BA%E7%89%A9/id1479851581?l=en"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbm9ib2R5LmltL3BvZGNhc3QvcnNzLnhtbA"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/1qizpC4DJSx5OtZwsDCaNu"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1479851581"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #f60c3e">
-          <a class="item_logo" href="https://anyway.fm/" target="_blank">
-            <img src="./files/cover-new.png" alt="Anyway.FM 设计杂谈 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://anyway.fm/" target="_blank"
-                >Anyway.FM 设计杂谈</a
+    <!-- navbar -->
+    <div class="tm-nav-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#tmMainNav"
+                aria-controls="tmMainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
               >
-            </h3>
-            <p>
-              Anyway.FM 设计杂谈是一档播客节目，由设计师 JJ Ying 和 Leon Gao
-              以及 Yuki Gu 主播，我们的目标是让你的听觉更懂视觉。
-            </p>
-            <div class="item_meta"><span>JJ Ying、Leon Gao</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://anyway.fm/rss.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/anyway.fm-she-ji-za-tan/id1053786200"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4nd3MQMQzb6qwfAn1ZX81m"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1053786200/anyway-fm"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="tmMainNav">
+                <ul class="navbar-nav mx-auto tm-navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home"
+                      >主页 <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#features">个人特点</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#activities">个人爱好</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#myself">关于自己</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">联系我</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tlinks">Collect from <a href="javascript:void(0);"></a></div>
+    <!-- Video Banner -->
+    <section class="tm-banner-section" id="tmVideoSection">
+      <div class="container tm-banner-text-container">
+        <div class="row">
+          <div class="col-12">
+            <header>
+              <h2 class="tm-banner-title">Video</h2>
+              <p class="mx-auto tm-banner-subtitle">
+                The video background has a parallax effect. This is fluid and
+                full-width.
+              </p>
+            </header>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video -->
+      <video id="hero-vid" autoplay loop muted>
+        <source src="videos/city-night-blur-01.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <!-- Features -->
+    <div class="container tm-features-section" id="features">
+      <div class="row tm-features-row">
+        <section class="col-md-6 col-sm-12 tm-feature-block">
+          <header class="tm-feature-header">
+            <i class="fas fa-5x fa-anchor tm-feature-icon"></i>
+            <h3 class="tm-feature-h">性格</h3>
+          </header>
+          <p>热情开朗、乐观向上、兴趣广泛、</p>
+          <p>善于学习自我感兴趣的知识和事物。</p>
+        </section>
+        <section class="col-md-6 col-sm-12 tm-feature-block">
+          <header class="tm-feature-header">
+            <i class="fas fa-5x fa-atom tm-feature-icon"></i>
+            <h3 class="tm-feature-h">技能</h3>
+          </header>
+          <p>唱歌、跳舞</p>
+          <p>rap、篮球</p>
+        </section>
+      </div>
+    </div>
+
+    <!-- Activities -->
+    <div class="container" id="activities">
+      <div class="row">
+        <div class="col-12">
+          <div class="tm-parallax">
+            <header class="tm-parallax-header">
+              <h2 class="">个人爱好</h2>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="tm-activity-block">
+            <div class="tm-activity-img-container">
+              <img src="img/img-01.jpg" alt="Image" class="tm-activity-img" />
+            </div>
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">旅游</h3>
+              <p>喜欢到各种地方旅游。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+            <div class="tm-activity-img-container">
+              <img src="img/img-02.jpg" alt="Image" class="tm-activity-img" />
             </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a
-            class="item_logo"
-            href="https://www.arbretalk.com/"
-            target="_blank"
-          >
-            <img src="./files/cover.jpg" alt="一树闲谈 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.arbretalk.com/" target="_blank">一树闲谈</a>
-            </h3>
-            <p>一档摄影与艺术的跑题播客</p>
-            <div class="item_meta"><span>一树Arbre</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://www.arbretalk.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/podcast/id1329267569"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1329267569"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a
-            class="item_logo"
-            href="https://www.architalk.xyz/"
-            target="_blank"
-          >
-            <img src="./files/cover(1).jpg" alt="所建所闻 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.architalk.xyz/" target="_blank">所建所闻</a>
-            </h3>
-            <p>
-              「所建所闻」是一档呈现建筑师在思考什么、建造什么的播客节目，尝试以专业的视角来讨论周围的建成环境。
-            </p>
-            <div class="item_meta"><span>璟璐、慧珊</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://www.architalk.xyz/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1447980464"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://play.google.com/music/listen#/ps/Ifjpgocd42amnac5gnkxwg5vksu"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/7ap4JMpb880ABLmF195cVN"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1447980464"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://artispoison.com/" target="_blank">
-            <img src="./files/cover_small.jpg" alt="艺术有读 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://artispoison.com/" target="_blank">艺术有读</a>
-            </h3>
-            <p>由两位不务正业的艺术圈人士主持的读书跑题节目</p>
-            <div class="item_meta"><span>Sammi,胡湖</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://artispoison.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/hk/podcast/%E8%89%BA%E6%9C%AF%E6%9C%89%E8%AF%BB/id1342040716?l=en&amp;mt=2"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <a
-            class="item_logo"
-            href="https://avocadotoast.live/"
-            target="_blank"
-          >
-            <img
-              src="./files/2289524-1569802646186-cec499bfe6e4e.jpg"
-              alt="牛油果烤面包 Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://avocadotoast.live/" target="_blank"
-                >牛油果烤面包</a
-              >
-            </h3>
-            <p>以硅谷资深从业人员的视角，聊科技发展趋势</p>
-            <div class="item_meta">
-              <span>Cat Chen、斯图亚特、Sean Wang</span>
-            </div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://avocadotoast.typlog.io/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1479918340"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9lM2UxZmQwL3BvZGNhc3QvcnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/3royq81yR8oRcdC0KxXBhY"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1479918340/avocado-toast"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #f52a3d">
-          <a
-            class="item_logo"
-            href="https://www.barneystalk.taipei/"
-            target="_blank"
-          >
-            <img src="./files/600x600bb.jpg" alt="Barney’s Talk Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.barneystalk.taipei/" target="_blank"
-                >Barney’s Talk</a
-              >
-            </h3>
-            <p>
-              《 Barney’s Talk 巴尼播起來
-              》是一檔「生活風格訪談」的網路廣播節目（Podcast），從時尚、藝術，聊到職場，人生觀，藉由不同來賓的經驗分享，開拓都會男女的視野，或許會為你帶來不同的思維跟觀點。
-            </p>
-            <div class="item_meta"><span>Barney</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://anchor.fm/s/b418bc8/podcast/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/tw/podcast/barneys-talk/id1462243941?l=en"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iNDE4YmM4L3BvZGNhc3QvcnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/6DbKPyW4K5DHIl4kZKzxjk"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #d6518c">
-          <a
-            class="item_logo"
-            href="https://www.biede.com/girl-cat/podcast/"
-            target="_blank"
-          >
-            <img src="./files/600x600bb(1).jpg" alt="别任性 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.biede.com/girl-cat/podcast/" target="_blank"
-                >别任性</a
-              >
-            </h3>
-            <p>和别的女孩任意聊性与性别，带你从性别视角看一切</p>
-            <div class="item_meta"><span>哎伍德</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://feeds.acast.com/public/shows/bierenxing"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzLzVlNzliNDM0MjlkMTQwMWExYThjMDAxNQ"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/1uiiS8JFVnPo7A6GEGx6EW"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #ff6630">
-          <a
-            class="item_logo"
-            href="https://bitvoice.banlan.show/"
-            target="_blank"
-          >
-            <img src="./files/8446580582_247966.png" alt="比特新声 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://bitvoice.banlan.show/" target="_blank"
-                >比特新声</a
-              >
-            </h3>
-            <p>中文科技类播客</p>
-            <div class="item_meta"><span>郝海龙、有才</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://bitvoice.banlan.show/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id948011382"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9iaXR2b2ljZS5iYW5sYW4uc2hvdy9lcGlzb2Rlcy9mZWVkLnhtbA"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/5582LPfK686phArDMokkuK"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes948011382"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #ff6630">
-          <a class="item_logo" href="https://bowuzhi.fm/" target="_blank">
-            <img src="./files/8399831017_563724.jpg" alt="博物志 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://bowuzhi.fm/" target="_blank">博物志</a></h3>
-            <p>一档关于博物馆的播客。</p>
-            <div class="item_meta"><span>婉莹、大黄、小爱</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://bowuzhi.fm/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a
-            class="item_logo"
-            href="https://www.bukelilun.com/"
-            target="_blank"
-          >
-            <img src="./files/cover(2).jpg" alt="不可理论 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.bukelilun.com/" target="_blank">不可理论</a>
-            </h3>
-            <p>
-              一档带你用理论来理解生活的播客节目。宗旨是，不可用学术的方式做理论，不可用理论的方式谈理论。
-            </p>
-            <div class="item_meta"><span>宝婷</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://www.bukelilun.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1413097540"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/feed/aHR0cDovL3d3dy5idXNhbmdwb2RjYXN0LmNvbS9lcGlzb2Rlcy9mZWVkLnhtbA=="
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/056mCDC2fz4hyiivuhHAPy"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1413097540"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #c93939">
-          <a
-            class="item_logo"
-            href="https://busangpodcast.com/"
-            target="_blank"
-          >
-            <img src="./files/8421796100_903975.png" alt="不丧 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://busangpodcast.com/" target="_blank">不丧</a>
-            </h3>
-            <p>
-              「不丧」是首档文化类夫妻夜间谈话节目，我们每周分享让自己快乐的文化类产品，可能是一篇文章，一本书，一部电影或一部电视剧，再随便扯扯闲篇。力求在维护婚姻和谐的同时，以一己之力抵抗丧文化。
-            </p>
-            <div class="item_meta"><span>好小气，乔老师</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://busangpodcast.com/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/us/podcast/%E4%B8%8D%E4%B8%A7/id1341496069"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cDovL3d3dy5idXNhbmdwb2RjYXN0LmNvbS9lcGlzb2Rlcy9mZWVkLnhtbA%3D%3D"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/0BKsGhcF6uR9S9lganYNI0?si=nZ8FlStjRRywkw_KeEnxXg"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://buzaichang.xyz/" target="_blank">
-            <img src="./files/8420559749_374919.jpg" alt="不在场 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://buzaichang.xyz/" target="_blank">不在场</a>
-            </h3>
-            <p>让感觉复苏，让音乐复活</p>
-            <div class="item_meta"><span>重轻</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://buzaichang.xyz/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1495587567"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/6poQd4AaQ7In4Tx9PRGFp2?si=Hs42VHywSBy5beBisPVl9Q"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1495587567"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a
-            class="item_logo"
-            href="https://byebye.photography/"
-            target="_blank"
-          >
-            <img src="./files/8434577825_55052.png" alt="告别摄影 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://byebye.photography/" target="_blank">告别摄影</a>
-            </h3>
-            <p>像谈论一场电影一样谈论摄影。</p>
-            <div class="item_meta"><span>蔡骁、甜食</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://byebye.photography/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1476075004"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9ieWVieWUucGhvdG9ncmFwaHkvZXBpc29kZXMvZmVlZC54bWw="
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/5wWSa1RVSBblPaVlQD3wnc"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1476075004"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #ff6630">
-          <a class="item_logo" href="https://byte.coffee/" target="_blank">
-            <img src="./files/bytecoffe.684be901.jpg" alt="Byte.Coffee Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://byte.coffee/" target="_blank">Byte.Coffee</a>
-            </h3>
-            <p>一档播客以及咖啡本人</p>
-            <div class="item_meta"><span>MilkShake羊</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://byte.coffee/feed/podcast/"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/byte-coffee/id1332974431?mt=2&amp;at=1000lJNz&amp;ct=1000lJNz"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/5f0tc52KhmZFU84qrEsYaB?si=LuLx2qLZRdqR_dyJd5V4Mw"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/p751521-DHLYix"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #faf2db">
-          <a
-            class="item_logo"
-            href="http://fm.caixin.com/m/cxmorningcall/index.html"
-            target="_blank"
-          >
-            <img
-              src="./files/1586227776669764.jpg"
-              alt="财新Morning Call Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a
-                href="http://fm.caixin.com/m/cxmorningcall/index.html"
-                target="_blank"
-                >财新Morning Call</a
-              >
-            </h3>
-            <p>唤醒你的资讯早餐</p>
-            <div class="item_meta"><span>财新网</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://other.caixin.com/itunes/101523091.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1513312390"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly9vdGhlci5jYWl4aW4uY29tL2l0dW5lcy8xMDE1MjMwOTEueG1s"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1513312390"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://casticle.fm/" target="_blank">
-            <img src="./files/Casticle-square.png" alt="Casticle Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://casticle.fm/" target="_blank">Casticle</a></h3>
-            <p>一档探索并发现优质单期英文播客的中文节目</p>
-            <div class="item_meta"><span>糊糊</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://casticle.fireside.fm/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/casticle/id1453402890?mt=2"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #3e5529">
-          <a
-            class="item_logo"
-            href="https://podcasts.cosmosrepair.com/"
-            target="_blank"
-          >
-            <img src="./files/cover_small(1).jpg" alt="晚风说 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://podcasts.cosmosrepair.com/" target="_blank"
-                >晚风说</a
-              >
-            </h3>
-            <p>
-              “晚风说”是《禅与宇宙维修艺术》公众号出品的对话类播客节目。每期记录一场真实的对话，探索一个灵魂，收集一个故事，学习一种新知。有人曾说，历史上最伟大的思想都是通过对话形式产生和被记录的。我们无意成就伟大，只想在这个世界上好好玩耍。希望它对你，常常陪伴，偶尔启发。
-            </p>
-            <div class="item_meta"><span>cosmosrepair</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://podcasts.cosmosrepair.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/id1475254987"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0cy5jb3Ntb3NyZXBhaXIuY29tL3Jzcw%3D%3D"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/5SfJxMPMoqbGc2zG8ouiuD?si=QcavW9VXQiKTkTuBuWU8nA"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1475254987"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #a72ed5">
-          <a class="item_logo" href="https://crazy.capital/" target="_blank">
-            <img src="./files/banner-cn-dark.svg" alt="疯投圈 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://crazy.capital/" target="_blank">疯投圈</a></h3>
-            <p>从投资视角探讨商业现象背后的本质。做最好的中文商业类播客。</p>
-            <div class="item_meta"><span>黄海、Rio</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://crazy.capital/feed"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1088178402"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #ff6630">
-          <a
-            class="item_logo"
-            href="http://www.culturepotato.com/"
-            target="_blank"
-          >
-            <img src="./files/culturepotato.043363a6.jpg" alt="文化土豆 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="http://www.culturepotato.com/" target="_blank"
-                >文化土豆</a
-              >
-            </h3>
-            <p></p>
-            <div class="item_meta"><span>益康糯米</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="http://www.spreaker.com/show/2571819/episodes/feed"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/culture-potato/id1243945491"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/3poelZTE8Pi62E9EK6FTHv?si=SHniG_aHR_KNCgpDt9U0fw"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #7c070e">
-          <a class="item_logo" href="https://dao.fm/" target="_blank">
-            <img src="./files/Logo_DAO.png" alt="津津乐道 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://dao.fm/" target="_blank">津津乐道</a></h3>
-            <p>各领域达人联手制作的多档高质量播客，分享经验、传播体验</p>
-            <div class="item_meta"><span>DAO</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://feeds.jjldbk.com/all.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1086442347"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9qaW5qaW5sZWRhby5vcmcvP2ZlZWQ9cG9kY2FzdA"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4HkNWypHqCFH2U2H1ivI22"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1086442347"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a
-            class="item_logo"
-            href="https://www.digforfire.net/?cat=7"
-            target="_blank"
-          >
-            <img
-              src="./files/DFFChristmaslogo-03-155x15.png"
-              alt="掘火电台 Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.digforfire.net/?cat=7" target="_blank"
-                >掘火电台</a
-              >
-            </h3>
-            <p>掘火档案（http://www.digforfire.net) 有声部分。</p>
-            <div class="item_meta">
-              <span>掘火众作者/制作人/封面设计师</span>
-            </div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://www.digforfire.net/digforfire_radio_feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id406140064"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuZGlnZm9yZmlyZS5uZXQvZGlnZm9yZmlyZV9yYWRpb19mZWVkLnhtbA=="
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes406140064"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #002fa7">
-          <a
-            class="item_logo"
-            href="https://talk.dyingfordrinking.com/"
-            target="_blank"
-          >
-            <img src="./files/8400183029_091944.jpg" alt="推杯唤斩 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://talk.dyingfordrinking.com/" target="_blank"
-                >推杯唤斩</a
-              >
-            </h3>
-            <p>大家坐下来一起喝酒聊酒</p>
-            <div class="item_meta"><span>帽子雲,Zed,令国</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://talk.dyingfordrinking.com/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/%E6%8E%A8%E6%9D%AF%E5%94%A4%E6%96%A9/id1473143473"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cDovL3RhbGsuZHlpbmdmb3Jkcmlua2luZy5jb20vZXBpc29kZXMvZmVlZC54bWw%3D"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/76uzwyishJppD5kLyYlKsn"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1473143473"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: 5176b6">
-          <a
-            class="item_logo"
-            href="https://podcast.astrianzheng.com/"
-            target="_blank"
-          >
-            <img src="./files/echo.js.logo.jpg" alt="Echo.js Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://podcast.astrianzheng.com/" target="_blank"
-                >Echo.js</a
-              >
-            </h3>
-            <p>
-              关于编程与开发的播客节目，a.k.a.
-              两名前端精英二级（迫真）干员的带主题吹水录音手记。
-            </p>
-            <div class="item_meta"><span>Astrian &amp; 白羊</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://podcast.astrianzheng.com/podcast.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/echo-js/id1516139979"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0LmFzdHJpYW56aGVuZy5jb20vcG9kY2FzdC54bWw="
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1516139979"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #ff6630">
-          <a class="item_logo" href="https://epf.xyz/" target="_blank">
-            <img src="./files/8416254153_150396.png" alt="耳旁风 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://epf.xyz/" target="_blank">耳旁风</a></h3>
-            <p>从有趣的人物出发，描述有趣事物以及生活。</p>
-            <div class="item_meta"><span>EPF</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://epf.xyz/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1482129723"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9lcGYueHl6L2VwaXNvZGVzL2ZlZWQueG1s"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/43WD52QXzqeU8FfItTNi3l"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1482129723"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #e3494b">
-          <a class="item_logo" href="https://www.etw.fm/" target="_blank">
-            <img src="./files/cover_small(2).jpg" alt="声东击西 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://www.etw.fm/" target="_blank">声东击西</a></h3>
-            <p>两个驻美记者主持的播客，带你看不一样的世界</p>
-            <div class="item_meta"><span>张晶、徐涛、冯兆音</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="http://www.etw.fm/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1183662640"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;apn=com.google.android.music&amp;link=https://play.google.com/music/m/Iwcjdodn4rhxotwfgn7xbihww2e?t%3D%25E5%25A3%25B0%25E4%25B8%259C%25E5%2587%25BB%25E8%25A5%25BF%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4g90u0gDleBx82Am08SmkN"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1183662640"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://fakefestival.org/" target="_blank">
-            <img src="./files/tywgM5J0PjQWFZp-sK3A.jpg" alt="道听途说 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://fakefestival.org/" target="_blank">道听途说</a>
-            </h3>
-            <p>假艺术节的独立播客项目</p>
-            <div class="item_meta"><span>Orange</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://fakefestival.org/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/id1448029483"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mYWtlZmVzdGl2YWwub3JnL2VwaXNvZGVzL2ZlZWQueG1s"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4fimR7CO3KjS194pjXkKOf"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1448029483"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://fom.fm/" target="_blank">
-            <img src="./files/cover(3).jpg" alt="Full of Mind Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://fom.fm/" target="_blank">Full of Mind</a></h3>
-            <p>心理学与 X 的跨界，聚焦于感知、情绪和思维</p>
-            <div class="item_meta"><span>小果汁</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://fom.fm/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/us/podcast/full-of-mind/id1493276657"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mb20uZm0vcnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4O52F84SjbEWC2gkuUnWmZ"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1493276657"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #51ccd4">
-          <a class="item_logo" href="https://forkit.fm/" target="_blank">
-            <img src="./files/cover_small(3).jpg" alt="Fork it Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://forkit.fm/" target="_blank">Fork it</a></h3>
-            <p>第一个聊区块链技术的中文播客</p>
-            <div class="item_meta"><span>Terry、Jan、Daniel、Kevin</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://forkit.fm/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/fork-it/id1440578671"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/58vg6BOs0nbpju9hizcpBJ?si=ORo5eUDkQZaMd4sunZmPmA"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1440578671/fork-it"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #a72ed5">
-          <a class="item_logo" href="https://fyfy.fm/" target="_blank">
-            <img src="./files/logo.jpg" alt="枫言枫语 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://fyfy.fm/" target="_blank">枫言枫语</a></h3>
-            <p>听见科技与人文的声音</p>
-            <div class="item_meta"><span>枫影Justin Yan、自力hzlzh</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://fyfy.fm/feed/podcast"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1069600190"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://d12xoj7p9moygp.cloudfront.net/images/podcast/logo-square/006/google_podcasts@2x.png"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/7K4KZoidZvhlIpIbSj17QG"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1069600190"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="http://gdn.design/" target="_blank">
-            <img src="./files/cover_small(4).jpg" alt="设计药电 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="http://gdn.design/" target="_blank">设计药电</a></h3>
-            <p>听到设计中的商业思考</p>
-            <div class="item_meta"><span>高立、小彦</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="http://gdn.design/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/design-protein/id1086515768"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #282923">
-          <a class="item_logo" href="https://talk.swift.gg/" target="_blank">
-            <img src="./files/logo(1).jpg" alt="ggtalk Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://talk.swift.gg/" target="_blank">ggtalk</a></h3>
-            <p>程序员的闲聊节目</p>
-            <div class="item_meta"><span>梁杰_numbbbbb</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://talkcdn.swift.gg/static/rss.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/ggtalk/id1440443653"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <a class="item_logo" href="https://gopod.fm/about/" target="_blank">
-            <img src="./files/gopodfm.png" alt="来听呗 | GoPod.FM Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://gopod.fm/about/" target="_blank"
-                >来听呗 | GoPod.FM</a
-              >
-            </h3>
-            <p>
-              来听呗 | GoPod.FM
-              是一档“我来讲，你来听”的播客节目，在这里有你爱听的内容，也有你没必要听的内容。
-            </p>
-            <div class="item_meta"><span>mai</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://gopod.fm/index.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/%E6%9D%A5%E5%90%AC%E5%91%97-gopod-fm/id1535974856"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yZmQyOWM5OC9wb2RjYXN0L3Jzcw=="
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/6gQFZlOqQ1JBFFoFyBOYOh"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1526742536"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://groundradio.net/" target="_blank">
-            <img
-              src="./files/8411262866_581019.jpg"
-              alt="地面电台GROUNDRADIO  Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://groundradio.net/" target="_blank"
-                >地面电台GROUNDRADIO
-              </a>
-            </h3>
-            <p>三位普通乐迷发起的音乐文化类播客</p>
-            <div class="item_meta"><span>挨石,博翔,小吉</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://groundradio.net/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1511867801"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/2QgUJZNEiX8njpPVZPYI01?si=xm7zRiK0Q6yBRUV6k1YiBg"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #d3728d">
-          <a class="item_logo" href="https://growup.rocks/" target="_blank">
-            <img src="./files/cover-1024x1024.jpg" alt="大人课 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://growup.rocks/" target="_blank">大人课</a></h3>
-            <p>
-              「大人课」是一项面向所有中国城市青年的自救计划。我们希望帮助自己和你解决
-              21 世纪最重要的三个问题：信息过载、情感表达、自我取悦。
-            </p>
-            <div class="item_meta"><span>文仪，赛赛</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://growup.rocks/feed/podcast"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/gb/podcast/%E5%A4%A7%E4%BA%BA%E8%AF%BE/id1458121725"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/1idzXfq8pXYI2O9oEkZ0ev"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <a class="item_logo" href="http://gulugulufm.tk/" target="_blank">
-            <img src="./files/313x0w.jpg" alt="闭门造车 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="http://gulugulufm.tk/" target="_blank">闭门造车</a>
-            </h3>
-            <p>
-              Miki和各类创作者的深度访谈，了解创作背后的故事。不要一直做消费者了，去创作自己喜欢的东西吧。
-            </p>
-            <div class="item_meta"><span>Miki Hau</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://anchor.fm/s/2d9522d4/podcast/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/us/podcast/id1525084596"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yZDk1MjJkNC9wb2RjYXN0L3Jzcw"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4FuOWZhWPvQXas4nMfdi4b"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1525084596"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #598d78">
-          <a class="item_logo" href="http://half.plus/" target="_blank">
-            <img src="./files/8444425610_07119.jpg" alt="Half+ 一知半解 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="http://half.plus/" target="_blank">Half+ 一知半解</a>
-            </h3>
-            <p>We talk nothing.</p>
-            <div class="item_meta"><span>Microhoo, Sol, um1ng</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="http://half.plus/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1460692135"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9oYWxmcGx1cy50eXBsb2cuaW8vZXBpc29kZXMvZmVlZC54bWw"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/18pxybaR6gVOi8utxFv2ZC"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1460692135"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #7da24a">
-          <a class="item_logo" href="https://hardimage.pro/" target="_blank">
-            <img src="./files/8404435997_461926.png" alt="硬影像 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://hardimage.pro/" target="_blank">硬影像</a></h3>
-            <p>
-              《硬影像》由 IPN
-              出品，由罗登主持，是一个关注影像之一切的播客。谈论影像背后的技术，历史和哲理。
-            </p>
-            <div class="item_meta"><span>罗登</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://hardimage.pro/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id982865614"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #818181">
-          <a class="item_logo" href="https://www.infoier.com/" target="_blank">
-            <img
-              src="./files/LOGO-uai-1032x1032.jpg"
-              alt="infoier | 设计乘数 Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.infoier.com/" target="_blank"
-                >infoier | 设计乘数</a
-              >
-            </h3>
-            <p>
-              《设计乘数》是由用户体验设计师龚子仪发起的媒体计划，他相信多学科整合的力量能够给设计带来乘数效应。播客试图讨论科技、社会、经济、心理等诸多话题，用设计的角度参与并不断进行探索。
-            </p>
-            <div class="item_meta"><span>龚子仪</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://www.infoier.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/infoier-%E8%AE%BE%E8%AE%A1%E4%B9%98%E6%95%B0/id1255742135"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1255742135/infoier"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #414248">
-          <a
-            class="item_logo"
-            href="https://itdashu.podssible.com/"
-            target="_blank"
-          >
-            <img src="./files/2dashu.png" alt="两个 iT 大叔 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://itdashu.podssible.com/" target="_blank"
-                >两个 iT 大叔</a
-              >
-            </h3>
-            <p>
-              本节目由「两个 iT 大叔」主持，会聊一些 IT
-              互联网、生活、旅行、创业等方面的话题。
-            </p>
-            <div class="item_meta"><span>Glif &amp; Herock</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://itdashu.podssible.com/feeds/rss.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/liang-ge-it-da-shu/id1173328438"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/3C5Fsp3NOmXQBa8XVq92PP?si=tnKQXG_zTjSBsMh4E_5AfA"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1173328438/it"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a class="item_logo" href="https://jiaocha.io/" target="_blank">
-            <img src="./files/logo(2).jpg" alt="交差点 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://jiaocha.io/" target="_blank">交差点</a></h3>
-            <p>科技人文主题播客</p>
-            <div class="item_meta"><span>Jesse, Alex, 林檎</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://jiaocha.io/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1395745599"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1395745599"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://jingshu.love/" target="_blank">
-            <img src="./files/8440451121_761312.jpg" alt="神爱玩财 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://jingshu.love/" target="_blank">神爱玩财</a>
-            </h3>
-            <p>丰盛人生的四份礼物</p>
-            <div class="item_meta"><span>静姝</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://jingshu.love/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/us/podcast/%E7%A5%9E%E7%88%B1%E7%8E%A9%E8%B4%A2/id1466592255?ign-mpt=uo%3D4"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/0Fa19o5DZemcGof4O2iUKd"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #b37700">
-          <a class="item_logo" href="https://jiumutalk.com/" target="_blank">
-            <img src="./files/8420987609_132179.png" alt="九木侃 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://jiumutalk.com/" target="_blank">九木侃</a></h3>
-            <p>一档闲聊博客 | Somewhere between nowhere &amp; goodbye</p>
-            <div class="item_meta"><span>九木</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://jiumutalk.com/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/id1468634024"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9qaXVtdXRhbGsuY29tL2VwaXNvZGVzL2ZlZWQueG1s"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/44v5Sq4nYzWvpdVzktvaz4"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1468634024"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #ff6630">
-          <a class="item_logo" href="https://pan.icu/" target="_blank">
-            <img src="./files/icon-nano.svg" alt="内核恐慌 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://pan.icu/" target="_blank">内核恐慌</a></h3>
-            <p>
-              《内核恐慌》是一档由 Rio
-              和吴涛主持的科技播客。号称硬核，可也没什么干货。想听的人听，不想听的人就别听。
-            </p>
-            <div class="item_meta"><span>Rio、吴涛</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://pan.icu/feed"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/id928916244"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #f7c9c9">
-          <a
-            class="item_logo"
-            href="https://loudmurmursfm.com/"
-            target="_blank"
-          >
-            <img
-              src="./files/8425979069_315848.jpg"
-              alt="小声喧哗 Loud Murmurs Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://loudmurmursfm.com/" target="_blank"
-                >小声喧哗 Loud Murmurs</a
-              >
-            </h3>
-            <p>
-              小声喧哗是一档从影视文本中，以女性视角来观察和批判世界如何被塑造的播客,
-              由Ina, Izzy, Diaodiao和阿花四个旅美当代女青年主持。
-            </p>
-            <div class="item_meta"><span>Ina, Izzy, Diaodiao, 阿花</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://loudmurmursfm.com/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/us/podcast/loud-murmurs-%E5%B0%8F%E5%A3%B0%E5%96%A7%E5%93%97/id1355583279"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/5Y7rOGNMAPYE02iuDVaE9X"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #325bab">
-          <a class="item_logo" href="https://lushu88.com/" target="_blank">
-            <img src="./files/cover_small(5).jpg" alt="路书 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://lushu88.com/" target="_blank">路书</a></h3>
-            <p>
-              行万里路，读万卷书。《路书》是一档讨论艺术和历史的播客节目。我们追求一种行知合一的学习体验，行路，读书，知其然，更知其所以然。
-            </p>
-            <div class="item_meta"><span>古村、瞿侠</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://lushu88.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/%E8%B7%AF%E4%B9%A6/id1341991591?mt=2"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1341991591"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #ff9e1b">
-          <a class="item_logo" href="https://mclarenfan.club/" target="_blank">
-            <img src="./files/8424448022_835693.png" alt="麦迷说 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://mclarenfan.club/" target="_blank">麦迷说</a>
-            </h3>
-            <p>一档由麦克拉伦车迷做的 F1 主题播客节目</p>
-            <div class="item_meta"><span>迈凯伦车迷俱乐部</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://mclarenfan.club/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1456247699"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://play.google.com/music/listen?u=0#/ps/Iuqa6mneujxkzq7vm63gr5exupu"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/3sfkJKsjeADZkZCnq55U1c?si=tqEPk5xSSUGSGmOprMKj0w"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/p1210658-oDqDto"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #2d6bd5">
-          <a class="item_logo" href="https://mohudidai.com/" target="_blank">
-            <img src="./files/cover(4).jpg" alt="模糊地带 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://mohudidai.com/" target="_blank">模糊地带</a>
-            </h3>
-            <p>谈论性别与性取向话题，呈现自我的束缚与被束缚</p>
-            <div class="item_meta"><span>Brook</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://mohudidai.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/podcast/id1456528675"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://play.google.com/music/m/Im3ascav4tv2awfdush6jbsslra"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/2aAzNycmYZr5WePosNUdOc"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1456528675"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://www.nicktalk.com/" target="_blank">
-            <img src="./files/尼克逃課+logo.jpg" alt="NickTalk Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.nicktalk.com/" target="_blank">NickTalk</a>
-            </h3>
-            <p>格物致知 · 興趣相投</p>
-            <div class="item_meta"><span>Nick</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://feeds.transistor.fm/nicktalk"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #91c1e5">
-          <a class="item_logo" href="https://pretro.xyz/" target="_blank">
-            <img src="./files/icon-pretro.svg" alt="提前怀旧 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://pretro.xyz/" target="_blank">提前怀旧</a></h3>
-            <p>
-              一切未来终将成为过去。欢迎收听《提前怀旧》，一档由任宁和 Rio
-              主持的科技评论节目。
-            </p>
-            <div class="item_meta"><span>任宁、Rio</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://pretro.xyz/feed"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/id1397182275"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a class="item_logo" href="https://pythonhunter.org/" target="_blank">
-            <img src="./files/8444690454_041962.png" alt="捕蛇者说 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://pythonhunter.org/" target="_blank">捕蛇者说</a>
-            </h3>
-            <p>聊聊 Python，聊聊编程，聊聊人生</p>
-            <div class="item_meta">
-              <span>Manjusaka, Adam Wen, 赖信涛, laike9m</span>
-            </div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://pythonhunter.org/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1460475182"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly9weXRob25odW50ZXIub3JnL2VwaXNvZGVzL2ZlZWQueG1s"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4qXfktuWS6Lin2AtMa62fc"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1460475182"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a
-            class="item_logo"
-            href="https://renjianzhinan.xyz/"
-            target="_blank"
-          >
-            <img src="./files/podcast_logo_320.png" alt="人间指南 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://renjianzhinan.xyz/" target="_blank">人间指南</a>
-            </h3>
-            <p></p>
-            <div class="item_meta"><span>hb</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://renjianzhinan.xyz/podcast.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/p1292963-DY3V3d"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #02764f">
-          <a class="item_logo" href="https://riyu.io/hibi/" target="_blank">
-            <img src="./files/riyu_riyu_color.jpg" alt="日语日语 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://riyu.io/hibi/" target="_blank">日语日语</a>
-            </h3>
-            <p>
-              一档日语主题的短语音娱乐节目，由网站riyu.io制作播出。我们希望能帮助你发现进而独立体会日语乃至语言的趣味。
-            </p>
-            <div class="item_meta"><span>riyu.io</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://riyu.io/hibi?format=rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1050486022"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #271756">
-          <a
-            class="item_logo"
-            href="https://podcast.starrocket.io/"
-            target="_blank"
-          >
-            <img src="./files/cover_small(6).jpg" alt="星箭廣播 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://podcast.starrocket.io/" target="_blank"
-                >星箭廣播</a
-              >
-            </h3>
-            <p>
-              《星箭廣播》關注「科技」和「創新故事」，歡迎你加入主持人 Titan 和
-              Maxine，以及不定期出現的特別來賓，一起探索科技和創新的邊界。
-            </p>
-            <div class="item_meta"><span>Titan &amp; Maxine</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://podcast.starrocket.io/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/tw/podcast/%E6%98%9F%E7%AE%AD%E5%BB%A3%E6%92%AD/id1459758276"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0LnN0YXJyb2NrZXQuaW8vcnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4Toah3FQiHxqcdCuoZ7jc9?si=sLdDVHz7QXeLnpkRuQanqw"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="http://steveshuo.com/" target="_blank">
-            <img src="./files/cover_small(7).jpg" alt="Steve说 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="http://steveshuo.com/" target="_blank">Steve说</a></h3>
-            <p>深度交流、拓宽边界、认识自我</p>
-            <div class="item_meta"><span>史秀雄Steve</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="http://steveshuo.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #e60012">
-          <a class="item_logo" href="https://storyfm.cn/" target="_blank">
-            <img
-              src="./files/New_logo_transparent_1400.png"
-              alt="故事FM Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://storyfm.cn/" target="_blank">故事FM</a></h3>
-            <p>在这里，我们用你的声音，讲述你的故事。</p>
-            <div class="item_meta"><span>寇爱哲</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://storyfm.cn/feed/episodes"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/e6-95-85-e4-ba-8b-fm/id1256399960"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: B4B4B4">
-          <a class="item_logo" href="https://techfusionfm.com/" target="_blank">
-            <img src="./files/logo@2x.png" alt="科技聚变 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://techfusionfm.com/" target="_blank">科技聚变</a>
-            </h3>
-            <p>
-              《科技聚变》（TechFusion）是一档科技主题播客节目，我们谈论有关互联网的一切。
-            </p>
-            <div class="item_meta"><span>Jerry &amp; Dean</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://techfusionfm.com/podcast.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1202658654"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;link=https://play.google.com/music/m/Ipiouils7kq2tvqibapqnnwsm5u?t%3D%25E7%25A7%2591%25E6%258A%2580%25E8%2581%259A%25E5%258F%2598_%28TechFusion%29%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/52KO4gMiYcf3KEoM4JCX7W"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1202658654"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #ccc">
-          <a class="item_logo" href="http://techreview.social/" target="_blank">
-            <img src="./files/cover(5).jpg" alt="社会人科技评论 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="http://techreview.social/" target="_blank"
-                >社会人科技评论</a
-              >
-            </h3>
-            <p>
-              《社会人科技评论》是一档非公益性却也没啥营利预期的科技评论媒体。
-            </p>
-            <div class="item_meta"><span>王汉洋</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="http://techreview.social/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1406122813"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #e97200">
-          <a class="item_logo" href="https://thespiral.fm/" target="_blank">
-            <img src="./files/jcgXQ_pNlQsvFI3C_EPiOA.png" alt="海螺电台 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://thespiral.fm/" target="_blank">海螺电台</a>
-            </h3>
-            <p>「海螺电台」播客是一个记录行动和探索过程的创作计划</p>
-            <div class="item_meta"><span>Shawn、Leethree</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://thespiral.fm/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/id1453346141?mt=2"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cDovL3RoZXNwaXJhbC5mbS9lcGlzb2Rlcy9mZWVkLnhtbA%3D%3D"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/2dmXaTPuhzANPVsNsjeVIH"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1453346141/the-spiral"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #ff6630">
-          <a class="item_logo" href="https://theue.me/" target="_blank">
-            <img src="./files/8435771888_914244.png" alt="无业游民 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://theue.me/" target="_blank">无业游民</a></h3>
-            <p>
-              无业游民是一档关于自我探索的节目，希望透过对他者的关怀和对世界的探索，让我们更多认识自己、建立自我。
-            </p>
-            <div class="item_meta">
-              <span>振宇、科长、阿彬、吕太阳、珮伊</span>
-            </div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://theue.me/feed/podcast"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/id1441243418"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/6f2084khHdlstUZBFDviho"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #f04c82">
-          <a
-            class="item_logo"
-            href="http://www.theviewtalk.com/"
-            target="_blank"
-          >
-            <img src="./files/cover_small(8).jpg" alt="一画一话 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="http://www.theviewtalk.com/" target="_blank">一画一话</a>
-            </h3>
-            <p>
-              「一画一话」是中文播客世界第一个聚焦现当代艺术展的泛文化类节目，编辑部在上海。
-            </p>
-            <div class="item_meta"><span>杨老师 </span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="http://www.theviewtalk.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1459969815"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cDovL3d3dy50aGV2aWV3dGFsay5jb20vcnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/7AiOQng2OECaVRO2iwEPNj"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/p1272829-slLJLH"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #003882">
-          <a class="item_logo" href="https://tlxxfm.com/" target="_blank">
-            <img src="./files/logo_t_3000.png" alt="踏浪寻星广播电台 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://tlxxfm.com/" target="_blank">踏浪寻星广播电台</a>
-            </h3>
-            <p>
-              踏浪寻星社（Tide and Star，TAS
-              Club）希望能在天与海之间，与大家分享天空与海洋的梦想故事。
-            </p>
-            <div class="item_meta"><span>肉壳</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://tlxxfm.com/feed/podcast"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1492381697"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly90bHh4Zm0uY29tL2ZlZWQvcG9kY2FzdA"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/6QxwnRyxjDDqVnVQ0YGF1L"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1490985208"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #8f322a">
-          <a class="item_logo" href="https://trekin.space/" target="_blank">
-            <img src="./files/avatar.jpg" alt="迷于星际 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://trekin.space/" target="_blank">迷于星际</a>
-            </h3>
-            <p>一档适合星际旅行时收听的聊天节目</p>
-            <div class="item_meta"><span>迷于星际的船员们</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://trekin.space/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://itunes.apple.com/cn/podcast/mi-yu-xing-ji-mi-hang-lost-in-st/id1054780505?mt=2"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://play.google.com/music/m/Iey4t72nyfjstbvsymmgcoptdqy?t=_Lost_in_ST"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4e3NxO5u4rS8oWkwjeP37d"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1054780505/lost-in-st"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #000">
-          <a
-            class="item_logo"
-            href="https://thetype.com/typechat/"
-            target="_blank"
-          >
-            <img src="./files/TypeChat-Cover-800px.jpg" alt="字谈字畅 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://thetype.com/typechat/" target="_blank"
-                >字谈字畅</a
-              >
-            </h3>
-            <p>
-              《字谈字畅》（TypeChat）是全球首家用华语制作的字体排印主题播客节目，由
-              Type is Beautiful
-              出品，专注于字体、排印和其他文字设计相关的内容，涵盖历史知识和新闻轶事。
-            </p>
-            <div class="item_meta"><span>Eric、蒸鱼</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://thetype.com/feed/typechat/"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1041704528"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1041704528"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #ff6630">
-          <a class="item_logo" href="https://www.uxcoffee.com/" target="_blank">
-            <img src="./files/logo_square.png" alt="UX Coffee 设计咖 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.uxcoffee.com/" target="_blank"
-                >UX Coffee 设计咖</a
-              >
-            </h3>
-            <p>
-              设计无处不在。在这个节目里，我们试图通过和设计这个世界的人们交谈，去探寻创造的过程、感受设计的力量。
-            </p>
-            <div class="item_meta"><span>Riceman、Hoka、帆啊帆</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://uxcoffee.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9GREFLWTFBRg"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/3Nx0Z9ZkIsJAWg4gGv2tWA"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1099551615/ux-coffee"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">拍照</h3>
+              <p>喜欢拍照，喜欢拍一些日常生活的照片。记录下美好的生活。</p>
             </div>
           </div>
         </div>
-        <div class="item" style="--theme-color: #a4a6a8">
-          <a
-            class="item_logo"
-            href="https://vibration-radio.com/"
-            target="_blank"
-          >
-            <img
-              src="./files/8434656459_5864725.png"
-              alt="Vibration 歪波音室 Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://vibration-radio.com/" target="_blank"
-                >Vibration 歪波音室</a
-              >
-            </h3>
-            <p>音乐太多，耳朵太少</p>
-            <div class="item_meta"><span>拾壹</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://vibration-radio.com/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
+        <div class="col-lg-6">
+          <div class="tm-activity-block">
+            <div class="tm-activity-img-container">
+              <img src="img/img-03.jpg" alt="Image" class="tm-activity-img" />
             </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #91b6d0">
-          <a
-            class="item_logo"
-            href="https://shop.vistopia.com.cn/detail?id=4z4Ew"
-            target="_blank"
-          >
-            <img src="./files/1535426548361.png" alt="八分 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a
-                href="https://shop.vistopia.com.cn/detail?id=4z4Ew"
-                target="_blank"
-                >八分</a
-              >
-            </h3>
-            <p>知识只求八分饱</p>
-            <div class="item_meta"><span>梁文道</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://api.vistopia.com.cn/rss/program/11.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1492414487"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hcGkudmlzdG9waWEuY29tLmNuL3Jzcy9wcm9ncmFtLzExLnhtbA=="
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1492414487"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fc5fa3">
-          <a class="item_logo" href="https://weakself.dev/" target="_blank">
-            <img src="./files/og_image.jpg" alt="weak self Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://weakself.dev/" target="_blank">weak self</a>
-            </h3>
-            <p>
-              三個在 iOS 開發圈打滾的台灣工程師，專為 Apple/iOS 開發者而製作的
-              Podcast。
-            </p>
-            <div class="item_meta"><span>一三、波肥、喬喬</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://anchor.fm/s/c914964/podcast/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/tw/podcast/weak-self/id1474108801"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jOTE0OTY0L3BvZGNhc3QvcnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/4qAJjdyhx5AgHHL4VuTauj"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1474108801/weak-self"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #3e5529">
-          <a
-            class="item_logo"
-            href="https://podcast.weareones.com/"
-            target="_blank"
-          >
-            <img src="./files/czgx.62f981d4.jpg" alt="迟早更新 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://podcast.weareones.com/" target="_blank"
-                >迟早更新</a
-              >
-            </h3>
-            <p>探讨科技、商业、设计和生活之间混沌关系的播客节目</p>
-            <div class="item_meta"><span>任宁、枪枪</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://podcast.weareones.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1451277133"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly9wb2RjYXN0LndlYXJlb25lcy5jb20vcnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/5MnwuOIlsjs5DTtJLvOpDv"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1451277133"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item _blocked" style="--theme-color: #8b1104">
-          <a class="item_logo" href="https://webview.tech/" target="_blank">
-            <img src="./files/2019-06-08-新logo.png" alt="WEB VIEW Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://webview.tech/" target="_blank">WEB VIEW</a>
-            </h3>
-            <p>不囿于 WEB，不止于 VIEW</p>
-            <div class="item_meta"><span>王隐，敬礼</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://webview.tech/feed/podcast/"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/web-view/id1401362237"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/5ZiKKzJBxJPv5R9hSGV2O7?si=I-qu2x8ETKent7BDOPIluQ"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1401362237/web-view"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #03a17e">
-          <a class="item_logo" href="https://wzd.fm/" target="_blank">
-            <img src="./files/cover(6).jpg" alt="味之道 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://wzd.fm/" target="_blank">味之道</a></h3>
-            <p>
-              《味之道》是由席妙雅主持的美食播客。美味是感性的体验，但同时需要开放的心态和眼界，以及精准的判断力。用味道来检验美食，不谈风月，不聊情怀。
-            </p>
-            <div class="item_meta"><span>席妙雅</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://wzd.fm/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id921775561"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://podcasts.google.com/?feed=aHR0cHM6Ly93emQuZm0vcnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes921775561"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">看书</h3>
+              <p>书中自有颜如玉，书中自有黄金屋。</p>
             </div>
           </div>
         </div>
-        <div class="item _blocked" style="--theme-color: #d8d8d8">
-          <a class="item_logo" href="https://yangjingbang.fm/" target="_blank">
-            <img src="./files/2019-12-09_193614+(1).png" alt="洋泾浜 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://yangjingbang.fm/" target="_blank">洋泾浜</a>
-            </h3>
-            <p>我是洋泾浜，请侬大声笑。</p>
-            <div class="item_meta"><span>米罗、甜食</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://www.yangjingbang.fm/?format=rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1225185816"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9taWxvLWNodWFuZy5zcXVhcmVzcGFjZS5jb20vYmxvZz9mb3JtYXQ9cnNz"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1225185816"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
+        <div class="col-lg-6">
+          <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+            <div class="tm-activity-img-container">
+              <img src="img/img-04.jpg" alt="Image" class="tm-activity-img" />
             </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #4b4a4f">
-          <a
-            class="item_logo"
-            href="https://www.yeyuwanjia.net/"
-            target="_blank"
-          >
-            <img
-              src="./files/5273D62A-635E-4322-8CDA-9F85AF4E53D2.jpeg"
-              alt="业余玩家 Logo"
-            />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://www.yeyuwanjia.net/" target="_blank">业余玩家</a>
-            </h3>
-            <p>一档关注影像、科技的播客，我们关注艺术和技术背后的故事。</p>
-            <div class="item_meta"><span>麦克白,徐日天</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="http://amateurplayer.libsyn.com/rss"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1493115626"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://play.google.com/music/m/Irkuqxglelopfs2y6qy4wio74dq"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/5e6nrrZnHubloYflGEI4IJ"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1493115626"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #d3728d">
-          <a class="item_logo" href="https://yitianshijie.net/" target="_blank">
-            <img src="./files/tnVvKh-Z0xzWG-t4G7mA.png" alt="一天世界 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://yitianshijie.net/" target="_blank">一天世界</a>
-            </h3>
-            <p>一天世界，昆乱不挡。</p>
-            <div class="item_meta"><span>不鳥萬如一</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://yitianshijie.net/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1099645400"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1099645400"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #ff9e1b">
-          <a
-            class="item_logo"
-            href="http://zheergen.club/episodes/"
-            target="_blank"
-          >
-            <img src="./files/8439903955_643157.jpg" alt="折尔根播客 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="http://zheergen.club/episodes/" target="_blank"
-                >折尔根播客</a
-              >
-            </h3>
-            <p>一档较为走心的陪伴型播客</p>
-            <div class="item_meta"><span>折耳根和他的朋友们</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://zheergen.club/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/podcast/id1465204213"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://play.google.com/music/m/Iyh4udhsdgl27omf75qenrql6p4"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/388rMk2PT9Cmd1hJBJrwMm"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1465204213"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #fff">
-          <a class="item_logo" href="https://zhiyi.life/" target="_blank">
-            <img src="./files/8445528631_600725.png" alt="执异 Logo" />
-          </a>
-          <div class="item_main">
-            <h3><a href="https://zhiyi.life/" target="_blank">执异</a></h3>
-            <p>Dare to be different.</p>
-            <div class="item_meta"><span>阿默、昆弟</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://zhiyi.life/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/us/podcast/%E6%89%A7%E5%BC%82/id1441907062"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly96aGl5aS5saWZlL2VwaXNvZGVzL2ZlZWQueG1s"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/1oNBjf2CfNXP8UjWCsmyM8?si=8iT7F7w0SceLQmfZHs3Iig"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1441907062"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="--theme-color: #002fa7">
-          <a class="item_logo" href="https://zhuchangsile.xyz/" target="_blank">
-            <img src="./files/8427143829_473563.png" alt="主唱死了 Logo" />
-          </a>
-          <div class="item_main">
-            <h3>
-              <a href="https://zhuchangsile.xyz/" target="_blank">主唱死了</a>
-            </h3>
-            <p>我们终于可以聊后摇了</p>
-            <div class="item_meta"><span>B,佳杰</span></div>
-            <div class="item_links">
-              <a
-                class="typicon icon-feed"
-                href="https://zhuchangsile.xyz/episodes/feed.xml"
-                target="_blank"
-                aria-label="Feed"
-              ></a>
-              <a
-                class="typicon icon-podcast"
-                href="https://podcasts.apple.com/cn/podcast/id1488276618"
-                target="_blank"
-                aria-label="Apple Podcasts"
-              ></a>
-              <a
-                class="typicon icon-google"
-                href="https://www.google.com/podcasts?feed=aHR0cHM6Ly96aHVjaGFuZ3NpbGUueHl6L2VwaXNvZGVzL2ZlZWQueG1s"
-                target="_blank"
-                aria-label="Google Podcasts"
-              ></a>
-              <a
-                class="typicon icon-spotify"
-                href="https://open.spotify.com/show/2frV3sr8fMbfpOZqBWONCk"
-                target="_blank"
-                aria-label="Spotify"
-              ></a>
-              <a
-                class="typicon icon-overcast"
-                href="https://overcast.fm/itunes1488276618"
-                target="_blank"
-                aria-label="Overcast"
-              ></a>
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">爬山</h3>
+              <p>挑战自己，磨炼意志，勇攀高峰。</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="typlog-foot">
-      <div class="inner">
-        <div class="links">
-          <a class="title" href="https://wylgjp.com/">中文独立播客</a>
+
+    <section class="container tm-company-section" id="myself">
+      <div class="row">
+        <div class="col-xl-9 col-lg-8 col-md-12 tm-company-left">
+          <div class="tm-company-about">
+            <div class="tm-company-img-container">
+              <img src="img/img-05.jpg" alt="Image" />
+            </div>
+            <div class="tm-company-about-text">
+              <header>
+                <h2 class="tm-company-about-header">我</h2>
+              </header>
+              <p>
+                00后。一位普普通通的大学生，平常喜欢看书拍照。也喜欢运动，假期里面旅旅游，爬爬山。
+              </p>
+              <p class="mb-4">做自己喜欢的，时时刻刻保持真实的自我。</p>
+              <a href="#" class="btn tm-btn tm-float-right">查看更多</a>
+            </div>
+          </div>
         </div>
-        <div class="copy">
-          <span>© 2021</span>
+        <div
+          class="col-xl-9 col-lg-4 col-md-12 tm-company-right ml-lg-auto mr-lg-0"
+        >
+          <div class="tm-company-right-inner">
+            <ul class="nav nav-tabs" id="tmCompanyTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link tm-nav-link-border-right active"
+                  id="vision-tab"
+                  data-toggle="tab"
+                  href="#vision"
+                  role="tab"
+                  aria-controls="vision"
+                  aria-selected="true"
+                  >静</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link tm-no-border-right"
+                  id="mission-tab"
+                  data-toggle="tab"
+                  href="#mission"
+                  role="tab"
+                  aria-controls="mission"
+                  aria-selected="false"
+                  >动</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="tmTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="vision"
+                role="tabpanel"
+                aria-labelledby="vision-tab"
+              >
+                <p>听歌</p>
+                <p>看书</p>
+                <p>拍照</p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="mission"
+                role="tabpanel"
+                aria-labelledby="mission-tab"
+              >
+                <p>跳舞</p>
+                <p>爬山</p>
+                <p>旅游</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <style>
-      .clearly-enabled {
-        overflow: hidden;
+    </section>
+    <!-- Contact -->
+    <section class="container tm-contact-section" id="contact">
+      <div class="row">
+        <div class="col-xl-5 col-lg-6 col-md-12 tm-contact-left">
+          <div class="tm-contact-form-container ml-auto mr-0">
+            <header>
+              <h2 class="tm-contact-header">联系我</h2>
+            </header>
+            <form action="index.html" class="tm-contact-form" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="contact_name"
+                  name="contact_name"
+                  class="form-control"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="contact_email"
+                  name="contact_email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  id="contact_message"
+                  name="contact_message"
+                  class="form-control"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="tm-text-right">
+                <button type="submit" class="btn tm-btn tm-btn-big">
+                  发送
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-6 col-md-12 tm-contact-right">
+          <div class="tm-contact-figure-block">
+            <figure class="d-inline-block">
+              <img src="img/img-06.jpg" alt="Image" class="img-fluid" />
+              <figcaption class="tm-contact-figcaption">
+                目前打算骑行西藏，有相同兴趣的朋友可以联系我，我们可以结伴而行。
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container tm-footer">
+      <div class="row tm-footer-row">
+        <p class="col-md-10 col-sm-12 mb-0" style="text-align: center">
+          Copyright &copy; 2019-2020
+          <a
+            href="http://www.beian.miit.gov.cn"
+            target="_blank"
+            id="beianhao"
+          ></a>
+        </p>
+        <div class="col-md-2 col-sm-12 scrolltop">
+          <div class="scroll icon"><i class="fa fa-4x fa-angle-up"></i></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- Single Page Nav plugin works with this version of jQuery -->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      function changeTitle(title) {
+        document.title = title;
+        document.querySelector('#title').innerText = title;
       }
 
-      #clearly-container {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
-        overflow: auto;
-        z-index: 99999999;
+      !(function setBeiAnHao() {
+        var beiAn = document.getElementById('beianhao');
+        if (location.host.includes('ndershine.com')) {
+          beiAn.innerHTML = '京ICP备2021007907号-4';
+          changeTitle('弹立方');
+        }
+      })();
+      /**
+       * detect IE
+       * returns version of IE or false, if browser is not Internet Explorer
+       */
+      function detectIE() {
+        var ua = window.navigator.userAgent;
+
+        var msie = ua.indexOf('MSIE ');
+        if (msie > 0) {
+          // IE 10 or older => return version number
+          return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+        }
+
+        var trident = ua.indexOf('Trident/');
+        if (trident > 0) {
+          // IE 11 => return version number
+          var rv = ua.indexOf('rv:');
+          return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+        }
+
+        // var edge = ua.indexOf('Edge/');
+        // if (edge > 0) {
+        //     // Edge (IE 12+) => return version number
+        //     return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+        // }
+
+        // other browser
+        return false;
       }
-    </style>
+
+      function setVideoHeight() {
+        const videoRatio = 1920 / 1080;
+        const minVideoWidth = 400 * videoRatio;
+        let secWidth = 0,
+          secHeight = 0;
+
+        secWidth = videoSec.width();
+        secHeight = videoSec.height();
+
+        secHeight = secWidth / 2.13;
+
+        if (secHeight > 600) {
+          secHeight = 600;
+        } else if (secHeight < 400) {
+          secHeight = 400;
+        }
+
+        if (secWidth > minVideoWidth) {
+          $('video').width(secWidth);
+        } else {
+          $('video').width(minVideoWidth);
+        }
+
+        videoSec.height(secHeight);
+      }
+
+      // Parallax function
+      // https://codepen.io/roborich/pen/wpAsm
+      var background_image_parallax = function ($object, multiplier) {
+        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        $object.css({ 'background-attatchment': 'fixed' });
+        $(window).scroll(function () {
+          var from_top = $doc.scrollTop(),
+            bg_css = 'center ' + multiplier * from_top + 'px';
+          $object.css({ 'background-position': bg_css });
+        });
+      };
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          $('.scrolltop:hidden').stop(true, true).fadeIn();
+        } else {
+          $('.scrolltop').stop(true, true).fadeOut();
+        }
+
+        // Make sticky header
+        if ($(this).scrollTop() > 158) {
+          $('.tm-nav-section').addClass('sticky');
+        } else {
+          $('.tm-nav-section').removeClass('sticky');
+        }
+      });
+
+      let videoSec;
+
+      $(function () {
+        if (detectIE()) {
+          alert(
+            'Please use the latest version of Edge, Chrome, or Firefox for best browsing experience.',
+          );
+        }
+
+        const mainNav = $('#tmMainNav');
+        mainNav.singlePageNav({
+          filter: ':not(.external)',
+          offset: $('.tm-nav-section').outerHeight(),
+          updateHash: true,
+          beforeStart: function () {
+            mainNav.removeClass('show');
+          },
+        });
+
+        videoSec = $('#tmVideoSection');
+
+        // Adjust height of video when window is resized
+        $(window).resize(function () {
+          setVideoHeight();
+        });
+
+        setVideoHeight();
+
+        $(window).on('load scroll resize', function () {
+          var scrolled = $(this).scrollTop();
+          var vidHeight = $('#hero-vid').height();
+          var offset = vidHeight * 0.6;
+          var scrollSpeed = 0.25;
+          var windowWidth = window.innerWidth;
+
+          if (windowWidth < 768) {
+            scrollSpeed = 0.1;
+            offset = vidHeight * 0.5;
+          }
+
+          $('#hero-vid').css(
+            'transform',
+            'translate3d(-50%, ' +
+              -(offset + scrolled * scrollSpeed) +
+              'px, 0)',
+          ); // parallax (25% scroll rate)
+        });
+
+        // Parallax image background
+        background_image_parallax($('.tm-parallax'), 0.4);
+
+        // Back to top
+        $('.scroll').click(function () {
+          $('html,body').animate(
+            { scrollTop: $('#home').offset().top },
+            '1000',
+          );
+          return false;
+        });
+      });
+    </script>
   </body>
 </html>
